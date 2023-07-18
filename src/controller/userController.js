@@ -128,7 +128,7 @@ exports.loginUser = async (req, res, next) => {
     }
 
 
-
+    console.log(token, user)
 
     // Send token to client
     return res
